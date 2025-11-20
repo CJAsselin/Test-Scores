@@ -1,1 +1,1 @@
-# Test-Scores
+This program has users input three test scores and averages them to give the user not only their average test score, but also to let them know how they did. For example, if the user's average test score was over 95, the output was "Congratulations! You did great", while if the user's average was under 70, the output was "You need to study harder next time."
