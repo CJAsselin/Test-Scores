@@ -1,0 +1,31 @@
+#define function
+def main():
+    average = get_average()
+    check_average(average)
+
+#asking user for scores
+def get_average():
+    print("Please enter three test scores.")
+
+#getting the three test scores
+    score1 = float(input("Enter score for Test 1: "))
+    score2 = float(input("Enter score for Test 2: "))
+    score3 = float(input("Enter score for Test 3: "))
+
+#calculate the average
+    average = (score1 + score2 + score3) / 3
+#returning average
+    return average
+#printing output
+def check_average(average):
+    if average > 95:
+        print("Congratulations! You did great")
+    elif 85 <= average <= 95:
+        print("You did great, but did not reach the Top High.")
+    elif 70 <= average <= 84:
+        print("Good effort, but you could do better.")
+    elif average < 70:
+        print(" You need to study harder next time.")
+
+#starting the program
+main()
